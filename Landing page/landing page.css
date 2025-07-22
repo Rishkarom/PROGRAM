@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+}
+.container-1{
+display: flex;
+justify-content: space-between;
+}
+.container-2{
+    padding-left: 100px;
+    font-size: 24px;
+    font: #f9faf8;
+    margin-top: 20px;
+}
+.container-3{
+    display: flex;
+    padding-right: 100px;
+    gap: 20px;
+    margin-top: 20px;
+}
+.container-3:hover{
+    color: green;
+}
+.container-4{
+    display: flex;
+    padding-top: 100px;
+   text-align: center;
+}
+.container-1,.container-4{
+    background-color: #1f2937;
+    color: white;
+     
+}
+.container-6{
+    font-size: 48px;
+    font:#f9faf8;
+    font-weight: 900;
+}
+.container-3,.container-7{
+    font-size: 18px;
+    font:#e5e7eb;
+}
+.img-1{
+    height: 50%;
+    width: 50%;
+    border-radius: 8px;
+}
+.container-5{
+    padding-left: 100px;
+    text-align: left;
+}
+.container-7{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+button {
+  cursor: pointer;
+  border: 0;
+  border-radius: 4px;
+  font-weight: 600;
+  margin: 0 10px;
+  width: 200px;
+  padding: 10px 0;
+  box-shadow: 0 0 20px rgba(104, 85, 224, 0.2);
+  transition: 0.4s;
+  margin-top: 20px;
+  
+}
+.container-8{
+    background-color: rgba(104, 85, 224, 1);
+}
+
+.header{
+    text-align: center;
+    font-size: 36px;
+    font: #1f2937;
+}
+.s1,.s2,.s3,.s4{
+height: 200px;
+width: 200px;
+border-radius: 8px;
+border:blue 10px solid;
+display: flex;
+flex-direction: column;
+}
+.container-10{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    gap: 20px;
+}
+.container-11{
+    padding-top: 40px;
+    background-color:#e5e7eb;
+    margin-bottom: 100px;
+    
+    
+}
+.quote{
+padding-bottom: 80px;
+padding-left: 200px;
+padding-right: 200px;
+padding-top: 80px;
+  font-family: "Playwrite VN Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+font-size: 36px;
+font: #1f2937;
+}
+.author{
+    font-size: 24px;
+    float: right;
+}
+.container-12{
+    display: flex;
+   align-items: center;
+    gap: 20px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    margin: auto;
+    width: 60%;
+    padding: 50px;
+    color: white; 
+}
+.footer{
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    bottom: 0;
+    width: 100%;
+    margin-top: 100px;
+    height: 90px;
+    font-size: 36px;
+}
+

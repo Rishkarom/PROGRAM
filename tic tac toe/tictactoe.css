@@ -1,0 +1,36 @@
+html{
+    background-color: lightgray;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(3,100px);
+    justify-content: center;
+    margin-top: 50px;
+    gap: 5px;
+}
+.grid-item{
+    border: 1px solid black;
+    background-color:white;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 36px;
+}
+.buttons{
+    text-align: center;
+    margin-top: 10px;
+}
+#reset{
+    padding: 10px 20px;
+    border-radius: 6px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    font-size: 1rem;
+}
+#player{
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
